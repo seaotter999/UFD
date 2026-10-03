@@ -1,9 +1,11 @@
 # User-Feedback-Driven Adaptation for Vision-and-Language Navigation
 
+[[Paper (IEEE TMM)](https://doi.org/10.1109/TMM.2026.3724731)] [[arXiv](https://arxiv.org/abs/2512.10322)] [[Data & Checkpoints](https://huggingface.co/Peachilk/UFD)]
+
 <div align="center"> <img src="assets/pipeline.png" width="800px" alt="Framework Overview">
 
 
-<em>Figure 1: Overview of the Feedback-Driven Adaptation Framework.</em> </div>
+<em>Figure 1: Overview of the Feedback-Driven Adaptation Framework. Figure from our IEEE TMM paper, © 2026 IEEE.</em> </div>
 
 ## Code Structure
 
@@ -137,6 +139,20 @@ python dataset_construction/get_pano_inputs.py \
     --img_ft_file data/features/clip_vit-b16_mp3d_hm3d_gibson.hdf5 \
     --scans_file scans.txt \
     --output_file data/pano_inputs_habitats_more_scan.h5
+```
+
+## Citation
+
+If you find this work helpful, please cite:
+
+```bibtex
+@article{yu2026userfeedback,
+  title   = {User-Feedback-Driven Adaptation for Vision-and-Language Navigation},
+  author  = {Yu, Yongqiang and Li, Xuhui and Mahmood, Hazza and Zhou, Jinxing and Hong, Haodong and Jiang, Longtao and Xu, Zhiqiang and Wu, Qi and Chang, Xiaojun},
+  journal = {IEEE Transactions on Multimedia},
+  year    = {2026},
+  doi     = {10.1109/TMM.2026.3724731}
+}
 ```
 
 ## Acknowledgements
