@@ -158,3 +158,9 @@ If you find this work helpful, please cite:
 ## Acknowledgements
 
 This code is built upon [GSA-VLN](https://github.com/honghd16/GSA-VLN) (GR-DUET), [VLN-DUET](https://github.com/cshizhe/VLN-DUET) and [ScaleVLN](https://github.com/wz0919/ScaleVLN).
+
+## License
+
+The code is released under the [MIT License](LICENSE). It is built upon [GSA-VLN](https://github.com/honghd16/GSA-VLN), whose MIT license notice is kept in `LICENSE`.
+
+The data and checkpoint on [HuggingFace](https://huggingface.co/Peachilk/UFD) are for non-commercial research use only. They are derived from R2R, Matterport3D, HM3D and GSA-R2R, so their use must also follow the terms of these datasets.
