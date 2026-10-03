@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Data and checkpoints are hosted on HuggingFace; download them to data/
+/data/
+
+# Experiment outputs: training and memory bank write to datasets/, path reconstruction to outputs/
+/datasets/
+/outputs/
+wandb/
