@@ -161,6 +161,6 @@ This code is built upon [GSA-VLN](https://github.com/honghd16/GSA-VLN) (GR-DUET)
 
 ## License
 
-The code is released under the [MIT License](LICENSE). It is built upon [GSA-VLN](https://github.com/honghd16/GSA-VLN), whose MIT license notice is kept in `LICENSE`.
+This code is released under the [MIT License](LICENSE). It is built upon [GSA-VLN](https://github.com/honghd16/GSA-VLN), which is also MIT-licensed.
 
-The data and checkpoint on [HuggingFace](https://huggingface.co/Peachilk/UFD) are for non-commercial research use only. They are derived from R2R, Matterport3D, HM3D and GSA-R2R, so their use must also follow the terms of these datasets.
+The data and checkpoint on [HuggingFace](https://huggingface.co/Peachilk/UFD) are for non-commercial research use only. Please also follow the terms of use of the original datasets: R2R, Matterport3D, HM3D and GSA-R2R.
